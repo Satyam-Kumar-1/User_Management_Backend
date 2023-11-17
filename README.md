@@ -58,12 +58,11 @@ The backend project follows a simple structure:
    npm install
 
 3. Set up environment variables:
+    Create a .env file with the following content:
 
-Create a .env file with the following content:
-
-   ```bash
-  PORT=5000
-  DATABASE_URL=<your_mongodb_uri>
+     ```bash
+    PORT=5000
+    DATABASE_URL=<your_mongodb_uri>
 
 4. Run the server :
 
